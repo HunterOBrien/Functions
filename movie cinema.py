@@ -54,7 +54,7 @@ def sell_ticket():
 
 
 def get_price(type_):
-    prices = [["A", 12.5]["S", 9]["C", 7]["G", 0]]
+    prices = [["A", 12.5], ["S", 9], ["C", 7], ["G", 0]]
     for price in prices:
         if price[0] == type_:
             return price[1]
